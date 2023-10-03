@@ -15,6 +15,13 @@ class Listing{
                     'description' => 'A security analyst is responsible for detecting and preventing threats to a company or organization. Their main job is to safeguard information, data, employees and clients from being hacked or cyber-attacked. They uncover weaknesses in the infrastructure and find the most forward-thinking ways of providing protection.'
                 ]
                 ];
-        
     }
+    public static function find($id) {
+        $listings = self::all();
+        foreach($listings as $listing) {
+            if($listing['id'] == $id) {
+                return $listing;
+        }
+    }
+}
 }
