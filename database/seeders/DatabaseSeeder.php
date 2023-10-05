@@ -25,7 +25,7 @@ class DatabaseSeeder extends Seeder
             'company' => 'AndroidKE Corp',
             'location' => 'Mombasa',
             'email' => 'androidke@corp.com',
-    
+    //I should come back to check why 'website' => 'https://www.androidke.com' did not work
             'description' => 'Discover how Android connects your devices. Sync your Android phone with your TV, watch or car for a unified experience. Move from one device to another seamlessly and make everything work better together. Securely and swiftly transfer large files to Android phones, tablets and Chromebooks, even when offline.',
 
         ]);
